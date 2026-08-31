@@ -13,22 +13,25 @@ I find the real options so you don’t spend a Saturday on it.
 
 You get one page:
 
-1. 3 real options  
+1. 3 vetted options with live listings  
 2. Prices as listed that day  
-3. Links or phones  
-4. One line: *I’d pick this if it were mine.*
+3. Pros and cons on each  
+4. Links or phones  
+5. One line: *I’d pick this if it were mine.*
 
 I don’t sell the thing.  
 I don’t take a cut from dealers.  
 You call them. You pay them.
 
+Works anywhere in the US. I’m based in Waterford / Erie PA.
+
 ---
 
-**Pay:** cash, check to **Dennis Myers**, or Venmo (handle coming).  
-Do not send money to a look-alike name.
+**Pay:** cash, or check to **Dennis Myers**.  
+No LLC. Invoice is my name.
 
-**Ask:** email agentchief66@gmail.com  
-What you want. Budget. How far you’ll drive.
+**Order:** email agentchief66@gmail.com  
+What you want. Budget. Zip code (or how far you’ll drive).
 
 ---
 
