@@ -9,7 +9,7 @@ Do **not** git push from this box unless `gh` is already authed on **agentchief6
 
 ## Files
 
-- `index.html` — Landing page. $50 / 48hr one-off and $150/month shop retainer.
+- `index.html` — Landing page. $25 go/no-go desk memo (24 hrs), $50 / 48hr one-off hunt, and $150/month shop retainer.
 - `sample-zero-turn-hunt.html` — Sample deliverable. Used zero-turn, ~150 miles of Erie, 31 Aug 2026.
 - `sample-tractor-hunt.html` — Sample. Erie-area compact tractor, 30 Aug 2026.
 - `sample-tesla-y-winter-hunt.html` — Sample. Model Y winter mats / hitch, priced 31 Aug 2026.
@@ -30,6 +30,7 @@ Live URLs:
 
 ## What this product is
 
+$25 desk memo. 24 hours. One listing URL. Go or no-go. Research only — not an inspection, appraisal, PPI, Carfax substitute, or investigation. Not a licensed mechanic or PI.  
 $50 one-off. 48 hours. Three options. A pick.  
 $150/month shop retainer. Three hunts. Landscaper, body shop, or equipment dealer.
 

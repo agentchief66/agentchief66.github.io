@@ -1,4 +1,4 @@
-# Chief Hunt — $50 one-off or $150/month
+# Chief Hunt — $25 desk memo · $50 hunt · $150/month
 
 **Dennis Myers (Doc Myers)**  
 Waterford / Erie, PA  
@@ -8,6 +8,9 @@ agentchief66@gmail.com only
 ---
 
 I find the real options so you don’t spend a Saturday on it.
+
+**$25 go/no-go desk memo. Done in 24 hours.**  
+Send one listing URL (Craigslist, Facebook Marketplace, auction lot, or dealer ad). You get a plain-English buy/pass memo: what looks good, what to check, a walk-away price if one is shown, and a clear go or no-go.
 
 **$50 per hunt. Done in 48 hours.**  
 **$150/month shop retainer. 3 hunts. Landscaper, body shop, or equipment dealer.**
@@ -28,13 +31,16 @@ Works anywhere in the US. I’m based in Waterford / Erie PA.
 
 ---
 
+**Hard limit on the desk memo:** research only. Not an inspection, appraisal, PPI, Carfax substitute, or investigation. Not a licensed mechanic or PI. I don’t see the item in person.
+
 **Pay:** cash, or check to **Dennis Myers**.  
 No LLC. Invoice is my name.  
 No Venmo. No PayPal. No Zelle.  
 No phone and no street address on the public page.
 
 **Order:** email agentchief66@gmail.com  
-What you want. Budget. Zip code (or how far you’ll drive).  
+Desk memo: listing URL.  
+Hunt: what you want, budget, zip code (or how far you’ll drive).  
 Shop retainer: shop type, shop name, what you usually buy.
 
 ---
