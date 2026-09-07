@@ -23,62 +23,85 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "Chief Hunt",
-    "alternateName": "Chief Hunt buying research",
-    "description": "Buying research. A $25 go/no-go desk memo on one listing URL delivered in 24 hours; a $50 one-off hunt with three vetted options delivered in 48 hours; or a $150/month shop retainer with three hunts per month for a landscaper, body shop, or equipment dealer. Research only — not an inspection, appraisal, PPI, Carfax substitute, or investigation.",
-    "url": "https://agentchief66.github.io/",
-    "provider": {
-      "@type": "Person",
-      "name": "Dennis Myers",
-      "alternateName": "Doc Myers",
-      "email": "mailto:agentchief66@gmail.com",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Waterford",
-        "addressRegion": "PA",
-        "addressCountry": "US"
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://agentchief66.github.io/#doc",
+        "name": "Dennis Myers",
+        "alternateName": "Doc Myers",
+        "email": "mailto:agentchief66@gmail.com",
+        "url": "https://agentchief66.github.io/",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Waterford",
+          "addressRegion": "PA",
+          "addressCountry": "US"
+        },
+        "areaServed": [
+          {"@type": "City", "name": "Waterford"},
+          {"@type": "AdministrativeArea", "name": "Erie County"},
+          {"@type": "Country", "name": "United States"}
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://agentchief66.github.io/#service",
+        "name": "Chief Hunt",
+        "alternateName": "Chief Hunt buying research",
+        "description": "Buying research. A $25 go/no-go desk memo on one listing URL delivered in 24 hours; a $50 one-off hunt with three vetted options delivered in 48 hours; a $150/month shop retainer with three hunts per month; or a $250 auction shortlist. Research only — not an inspection, appraisal, PPI, Carfax substitute, or investigation.",
+        "url": "https://agentchief66.github.io/",
+        "provider": {"@id": "https://agentchief66.github.io/#doc"},
+        "areaServed": [
+          {"@type": "City", "name": "Waterford"},
+          {"@type": "AdministrativeArea", "name": "Erie County"},
+          {"@type": "Country", "name": "United States"}
+        ],
+        "serviceType": "Buying research and shortlist",
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Chief Hunt offers",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "name": "Go/no-go desk memo",
+              "price": "25.00",
+              "priceCurrency": "USD",
+              "description": "Customer sends one listing URL. Within 24 hours, a plain-English buy/pass memo. Research only. USDC on Base.",
+              "availability": "https://schema.org/InStock",
+              "url": "https://agentchief66.github.io/#desk-memo"
+            },
+            {
+              "@type": "Offer",
+              "name": "One-off hunt",
+              "price": "50.00",
+              "priceCurrency": "USD",
+              "description": "One research hunt with three vetted options delivered within 48 hours. USDC on Base.",
+              "availability": "https://schema.org/InStock",
+              "url": "https://agentchief66.github.io/#hunt"
+            },
+            {
+              "@type": "Offer",
+              "name": "Shop retainer",
+              "price": "150.00",
+              "priceCurrency": "USD",
+              "description": "Three research hunts per month for a landscaper, body shop, or equipment dealer. USDC on Base.",
+              "availability": "https://schema.org/InStock",
+              "url": "https://agentchief66.github.io/#retainer"
+            },
+            {
+              "@type": "Offer",
+              "name": "Auction shortlist",
+              "price": "250.00",
+              "priceCurrency": "USD",
+              "description": "Ritchie Bros / auction-lot shortlist with go/no-go notes before bidding. USDC on Base.",
+              "availability": "https://schema.org/InStock",
+              "url": "https://agentchief66.github.io/#auction"
+            }
+          ]
+        },
+        "termsOfService": "Research only. Not an inspection, appraisal, PPI, Carfax substitute, or investigation. Not a licensed mechanic or private investigator. Seller does not buy the item, hold customer money, or take dealer kickbacks. Invoice is Dennis Myers, an individual. No LLC."
       }
-    },
-    "areaServed": {
-      "@type": "Country",
-      "name": "United States"
-    },
-    "serviceType": "Buying research and shortlist",
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Chief Hunt offers",
-      "itemListElement": [
-        {
-          "@type": "Offer",
-          "name": "Go/no-go desk memo",
-          "price": "25.00",
-          "priceCurrency": "USD",
-          "description": "Customer sends one listing URL. Within 24 hours, a plain-English buy/pass memo: what looks good, what to check, walk-away price if shown, and a clear go or no-go. Research only — not an inspection, appraisal, PPI, Carfax substitute, or investigation. USDC on Base.",
-          "availability": "https://schema.org/InStock",
-          "url": "https://agentchief66.github.io/"
-        },
-        {
-          "@type": "Offer",
-          "name": "One-off hunt",
-          "price": "50.00",
-          "priceCurrency": "USD",
-          "description": "One research hunt delivered within 48 hours. Payment in USDC on Base to the wallet on this page.",
-          "availability": "https://schema.org/InStock",
-          "url": "https://agentchief66.github.io/"
-        },
-        {
-          "@type": "Offer",
-          "name": "Shop retainer",
-          "price": "150.00",
-          "priceCurrency": "USD",
-          "description": "Three research hunts per month for a landscaper, body shop, or equipment dealer. $150 per month. USDC on Base.",
-          "availability": "https://schema.org/InStock",
-          "url": "https://agentchief66.github.io/"
-        }
-      ]
-    },
-    "termsOfService": "Research only. Not an inspection, appraisal, PPI, Carfax substitute, or investigation. Not a licensed mechanic or private investigator. Seller does not buy the item, hold customer money, or take dealer kickbacks. Invoice is Dennis Myers, an individual. No LLC."
+    ]
   }
   </script>
 
@@ -325,7 +348,7 @@
   <header>
     <div class="wrap">
       <p class="flag">Buying research · Waterford / Erie PA · ships as email anywhere in the US</p>
-      <h1>Buying research shortlists — and a go/no-go on one listing</h1>
+      <h1>Buying research shortlists for Marketplace &amp; Craigslist deals</h1>
       <p class="tag"><strong>Chief Hunt</strong> · You name something you want to buy. I find 3 real options, with prices and a clear pick — or a 24-hour buy/pass memo on one Marketplace/Craigslist URL.</p>
     </div>
   </header>

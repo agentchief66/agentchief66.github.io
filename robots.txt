@@ -2,4 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://agentchief66.github.io/sitemap.xml
-Sitemap: https://myersonthemap.com/sitemap.xml
