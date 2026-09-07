@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
+Sitemap: https://myersonthemap.com/sitemap.xml
 Sitemap: https://agentchief66.github.io/sitemap.xml
