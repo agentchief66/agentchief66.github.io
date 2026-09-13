@@ -5,4 +5,9 @@
   <url><loc>https://myersonthemap.com/sample-zero-turn-hunt.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://myersonthemap.com/sample-tractor-hunt.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://myersonthemap.com/sample-tesla-y-winter-hunt.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url>
+    <loc>https://myersonthemap.com/ai-photos.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
