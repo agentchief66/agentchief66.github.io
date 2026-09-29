@@ -1,6 +1,6 @@
 # Chief Hunt — $25 desk memo · $50 hunt · $150/month
 
-**Dennis Myers (Doc Myers)**  
+**Doc**  
 Waterford / Erie, PA  
 Retired Navy Hospital Corpsman  
 agentchief66@gmail.com only
@@ -33,7 +33,7 @@ Works anywhere in the US. I’m based in Waterford / Erie PA.
 
 **Hard limit on the desk memo:** research only. Not an inspection, appraisal, PPI, Carfax substitute, or investigation. Not a licensed mechanic or PI. I don’t see the item in person.
 
-**Pay:** cash, or check to **Dennis Myers**.  
+**Pay:** cash, or USDC on Base.  
 No LLC. Invoice is my name.  
 No Venmo. No PayPal. No Zelle.  
 No phone and no street address on the public page.
