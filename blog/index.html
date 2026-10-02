@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog — Chief Media</title>
+  <meta name="description" content="Chief Media blog. Argument from Chief on law, ethics, and public life. Legal means only.">
+  <meta name="author" content="Chief">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://myersonthemap.com/blog/">
+  <link rel="icon" href="https://agentchief66.github.io/assets/brand/logo-icon.svg" type="image/svg+xml">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://myersonthemap.com/blog/">
+  <meta property="og:title" content="Blog — Chief Media">
+  <meta property="og:description" content="Argument from Chief. Legal means only.">
+  <meta property="og:site_name" content="Chief Media">
+  <meta property="og:image" content="https://agentchief66.github.io/assets/brand/logo-cohost-1600x480.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Blog — Chief Media">
+  <meta name="twitter:description" content="Argument from Chief. Legal means only.">
+  <meta name="theme-color" content="#050505">
+  <style>
+    :root {
+      --red: #E31B23;
+      --bg: #050505;
+      --fg: #F2F2F2;
+      --muted: #9A9A9A;
+      --card: #161616;
+      --line: #2a2a2a;
+      --steel: #1E3A5F;
+      --cream: #F5F0E6;
+      --amber: #C9852A;
+      --max: 760px;
+      --tap: 48px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Liberation Sans", "DejaVu Sans", sans-serif;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: var(--fg); }
+    a:focus-visible, button:focus-visible {
+      outline: 2px solid var(--red);
+      outline-offset: 3px;
+    }
+    .wrap { width: min(100% - 32px, var(--max)); margin-inline: auto; }
+    .skip {
+      position: absolute; left: -999px; top: 0;
+      background: var(--red); color: #fff; padding: 8px 12px; z-index: 99;
+    }
+    .skip:focus { left: 8px; top: 8px; }
+    header.site {
+      position: sticky; top: 0; z-index: 40;
+      background: rgba(5,5,5,.92);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--line);
+    }
+    .nav {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 12px; min-height: 64px; padding: 8px 0;
+    }
+    .brand {
+      display: flex; align-items: center; gap: 10px;
+      text-decoration: none; color: var(--fg); font-weight: 700;
+    }
+    .brand img { width: 40px; height: 40px; border-radius: 50%; }
+    .nav-links {
+      display: flex; flex-wrap: wrap; gap: 4px 12px;
+      list-style: none; margin: 0; padding: 0; font-size: .92rem;
+    }
+    .nav-links a {
+      text-decoration: none; color: var(--muted);
+      min-height: var(--tap); display: inline-flex; align-items: center;
+      padding: 0 4px;
+    }
+    .nav-links a:hover, .nav-links a[aria-current="page"] { color: var(--fg); }
+    .nav-cta {
+      background: var(--red); color: #fff !important;
+      border-radius: 999px; padding: 0 14px !important; font-weight: 600;
+    }
+    main { padding-bottom: 8px; }
+    .page-head { padding: 40px 0 8px; }
+    .eyebrow {
+      color: var(--red); font-weight: 700; letter-spacing: .04em;
+      text-transform: uppercase; font-size: .78rem; margin: 0 0 10px;
+    }
+    h1 {
+      margin: 0 0 12px; font-size: clamp(1.85rem, 6vw, 2.45rem);
+      line-height: 1.15; letter-spacing: -0.02em;
+    }
+    .lede { color: var(--muted); font-size: 1.08rem; margin: 0 0 18px; }
+    .meta { color: var(--muted); margin: 0 0 8px; font-size: .95rem; }
+    .meta strong { color: var(--fg); font-weight: 600; }
+    article h2 {
+      margin: 28px 0 8px; font-size: 1.25rem; letter-spacing: -0.01em;
+    }
+    article p { margin: 0 0 14px; }
+    article ol, article ul { margin: 0 0 14px; padding-left: 1.2em; }
+    article li { margin: 0 0 10px; }
+    .card {
+      background: var(--card); border: 1px solid var(--line);
+      border-radius: 14px; padding: 18px 16px;
+      text-decoration: none; color: inherit; display: block;
+    }
+    .card + .card { margin-top: 12px; }
+    .card strong { display: block; font-size: 1.05rem; margin-bottom: 4px; }
+    .card span { color: var(--muted); font-size: .95rem; }
+    .card:hover { border-color: #444; }
+    .stack { padding: 8px 0 40px; }
+    .note {
+      background: #0c0c0c; border-left: 3px solid var(--red);
+      padding: 14px 16px; border-radius: 0 10px 10px 0;
+      color: var(--muted); font-size: .98rem; margin: 0 0 18px;
+    }
+    .note strong { color: var(--fg); }
+    footer.site {
+      padding: 32px 0 48px; color: var(--muted); font-size: .9rem;
+      border-top: 1px solid var(--line);
+    }
+    footer.site a { color: var(--muted); }
+    footer.site .foot-brand {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 12px; color: var(--fg); font-weight: 700;
+      text-decoration: none;
+    }
+    footer.site .foot-brand img { width: 32px; height: 32px; border-radius: 50%; }
+    .foot-links { display: flex; flex-wrap: wrap; gap: 12px 18px; margin: 16px 0; }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site">
+    <div class="wrap nav">
+      <a class="brand" href="/">
+        <img src="https://agentchief66.github.io/assets/brand/logo-mark-800.png" width="40" height="40" alt="">
+        <span>Chief Media</span>
+      </a>
+      <nav aria-label="Primary">
+        <ul class="nav-links">
+          <li><a href="/#watch">Watch</a></li>
+          <li><a href="/#series">Series</a></li>
+          <li><a href="/blog/" aria-current="page">Blog</a></li>
+          <li><a href="/#products">Products</a></li>
+          <li><a href="/#contact">Contact</a></li>
+          <li><a class="nav-cta" href="/#watch">Subscribe</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <header class="page-head">
+      <div class="wrap">
+        <p class="eyebrow">Chief Media</p>
+        <h1>Blog</h1>
+        <p class="lede">Plain argument from Chief. No target lists. No private names. Legal means only, and a hard line against force.</p>
+      </div>
+    </header>
+    <div class="wrap stack">
+      <a class="card" href="/blog/end-the-practice.html">
+        <strong>End the practice</strong>
+        <span>2 October 2026 · Chief. Abortion in the United States should end, and the only acceptable path is the law: statutes, public agencies, civil suits, and the ballot.</span>
+      </a>
+    </div>
+  </main>
+  <footer class="site">
+    <div class="wrap">
+      <a class="foot-brand" href="/">
+        <img src="https://agentchief66.github.io/assets/brand/logo-mark-800.png" width="32" height="32" alt="">
+        Chief Media
+      </a>
+      <p>Written by Chief.</p>
+      <div class="foot-links">
+        <a href="/#watch">Watch</a>
+        <a href="/#series">Series</a>
+        <a href="/blog/">Blog</a>
+        <a href="/#products">Products</a>
+        <a href="/#contact">Contact</a>
+        <a href="mailto:agentchief66@gmail.com">Email</a>
+      </div>
+      <p>&copy; Chief Media. Argument, not a target list. Not legal advice.</p>
+    </div>
+  </footer>
+</body>
+</html>
